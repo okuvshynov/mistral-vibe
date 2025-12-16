@@ -1,3 +1,11 @@
+## Fork notes
+
+This is a fork. Original repo is not accepting direct contributions at the moment, but might merge them eventually as part of later release. See for example discussion in here: https://github.com/mistralai/mistral-vibe/pull/57.
+
+I need to make a few changes and plan to work in this fork for now, tracking releases:
+* [custom user-level commands](https://github.com/mistralai/mistral-vibe/pull/57)
+* Next: semi-automatic permission collection
+
 # Mistral Vibe
 
 [![PyPI Version](https://img.shields.io/pypi/v/mistral-vibe)](https://pypi.org/project/mistral-vibe)
