@@ -5,13 +5,6 @@ This is a fork. Original repo is not accepting direct contributions at the momen
 I need to make a few changes and plan to work in this fork for now, tracking releases:
 * [custom user-level commands](https://github.com/mistralai/mistral-vibe/pull/57)
 * Next: semi-automatic permission collection
-* Provider-specific warmup on startup - for local models (llama.cpp, Ollama, vLLM), send an initial request on startup to pre-fill KV cache with system prompt, reducing latency for the first real query. Configuration per provider:
-  ```toml
-  [[providers]]
-  name = "llamacpp"
-  api_base = "http://127.0.0.1:8080/v1"
-  warmup = true  # send warmup request on startup
-  ```
 
 # Mistral Vibe
 
